@@ -1,0 +1,39 @@
+.grandparent {
+     position: relative;
+     width:100%;
+     height: 800px;
+     background-color:orange
+     
+     
+    }
+    .child {
+        position:absolute;
+        width: 50%;
+        height: 300px;
+        background-color: gainsboro;
+        bottom:0;
+        left: 0;
+        
+    }
+.parent {
+     position:absolute;
+     width: 50%;
+     height: 500px;
+     background-color:lightgreen;
+     top:0;
+     right: 0;
+}
+.center {
+    
+    margin-top: 130px;
+    margin-left:15px;
+
+  }
+  .logo {
+    margin-left:18%;
+    margin-top:14%
+  }
+  .teja {
+    margin-left: 70%;
+    margin-top:8%;
+  }

@@ -1,0 +1,45 @@
+<html> 
+<title>Employee Survey Form</title> 
+<head> 
+<script type="text/javascript" src="survey.js"></script> 
+<link rel="stylesheet" type="text/css" href="style1.css"> 
+<link rel="stylesheet" type="text/css" href="style2.css"> 
+</head> 
+<body> 
+  <h1>Employee Survey Form</h1> 
+  <form action="" method="post"> 
+    <div class="form-field"> 
+      <label for="name">Name:</label> 
+      <input type="text" name="name" id="name"> 
+    </div> 
+ 
+    <div class="form-field"> 
+      <label for="position">Position:</label> 
+      <input type="text" name="position" id="position"> 
+    </div> 
+    <div class="form-field"> 
+      <label for="years_employed">Years Employed:</label> 
+      <input type="number" name="years_employed" id="years_employed"> 
+    </div> 
+    <div class="form-field"> 
+      <label for="salary">Salary:</label> 
+      <input type="number" name="salary" id="salary"> 
+    </div> 
+    <div class="form-field"> 
+      <label for="satisfaction">Job Satisfaction:</label> 
+      <select name="satisfaction" id="satisfaction"> 
+        <option value="">Select One</option> 
+        <option value="very_satisfied">Very Satisfied</option> 
+        <option value="satisfied">Satisfied</option> 
+        <option value="not_satisfied">Not Satisfied</option> 
+      </select> 
+    </div> 
+    <div class="form-field"> 
+      <label for="suggestions">Suggestions:</label> 
+      <textarea name="suggestions" id="suggestions" rows="4" cols="30"></textarea> 
+    </div> 
+    <input type="submit" value="Submit" id="submit"> 
+  </form> 
+</body> 
+<html> 
+   

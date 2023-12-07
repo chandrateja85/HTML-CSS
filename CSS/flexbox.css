@@ -1,0 +1,17 @@
+body {
+    background-color:black;
+    padding-top: 250px;
+}
+.parent {
+    background-color: bisque;
+    display: flex;
+    height: 300px;
+    width: 100%;  
+    gap: 5px;
+    flex-wrap: wrap;
+}
+.child {
+    background-color: cadetblue;
+    width: 100px;
+    height: 100px;
+}

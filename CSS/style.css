@@ -1,0 +1,16 @@
+.my-style{
+    background-color:#E8F6EF;
+    color: #4C4C6D;
+    border: 3px dotted #000 
+}
+.page-style {
+    background-color:lightgray;
+}
+#my-id {
+    color:blue;
+    background-color: gold;
+}
+p { /*this causes h1 to over write in all classes*/
+    color:chartreuse;
+    /* so  preferrably use classes for every thing*/
+}

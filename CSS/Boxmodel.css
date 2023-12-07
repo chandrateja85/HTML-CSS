@@ -1,0 +1,15 @@
+.my-style {
+    background-color:yellow;
+    color:red;
+    padding-left: 650px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    /*margin:5%; used to display the margin of 5% ratio of the entire screen.*/
+    /* display:none; this will displays nothing */
+     
+}
