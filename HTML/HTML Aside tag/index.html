@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aside Bar</title>
+    <style>
+      
+        body {
+            margin: 0px;
+            display: flex; /* Use flex container */
+        }
+
+        .side-bar {
+            background: linear-gradient(45deg, lightgreen, lightyellow);
+            width: 250px;
+            height: 100vh;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .side-bar a {
+            display: block;
+            text-decoration: none;
+            padding: 30px;
+            color: darkblue;
+            font-size: 20px;
+        }
+
+        .side-bar a:hover {
+            background: linear-gradient(45deg, lightblue, deeppink);
+            color: white;
+            border-radius: 50px;
+            width: 200px;
+            height: 15px;;
+            font-size: 20px;
+        }
+
+        .side-bar img {
+            width: 150px;
+            height: 150px;
+            margin: auto;
+            border-radius: 50%;
+            margin-bottom: 15px;
+            margin-top: 15px;
+            border: 10px solid lightskyblue;
+        }
+
+        .main {
+            background: linear-gradient(45deg, lightyellow,skyblue);
+            flex: 1; /* Take remaining width */
+            padding: 20px; /* Add some padding */
+            margin-left: 5px;
+            margin-top: 5px;
+            font-size: 20px;
+            color:darkblue;
+        }
+        
+    </style>
+</head>
+<body>
+    <aside class="side-bar">
+        <img src="laptop.jpeg">
+        <a href="">Hp Laptops</a>
+        <a href="">Dell Laptops</a>
+        <a href="">Acer Laptops</a>
+        <a href="">Mac book</a>
+        <a href="">Aspire Laptops</a>
+        <a href="">Asus Laptops</a>
+
+    </aside>
+    <section class="main">    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus aliquam cumque et! Esse animi libero itaque, odit ut dicta tempore mollitia sequi. Nisi minima voluptatum aut distinctio, dolor natus fugit quasi aliquid, aliquam incidunt excepturi quibusdam ipsa, consequuntur assumenda ullam eius a laudantium? Quidem soluta minus aperiam, ad ratione atque.</p>
+    </section>
+</body>
+</html>
