@@ -5,14 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aside Bar</title>
     <style>
-      
         body {
             margin: 0px;
             display: flex; /* Use flex container */
         }
 
         .side-bar {
-            background: linear-gradient(45deg, lightgreen, lightyellow);
+            background-color:#FCD3D3; /* Gold to Tomato */
             width: 250px;
             height: 100vh;
             padding: 10px;
@@ -23,16 +22,16 @@
             display: block;
             text-decoration: none;
             padding: 30px;
-            color: darkblue;
+            color: #333333; /* Dark Gray text */
             font-size: 20px;
         }
 
         .side-bar a:hover {
-            background: linear-gradient(45deg, lightblue, deeppink);
-            color: white;
+            background: linear-gradient(45deg, #87CEFA, #FF69B4); /* Light Sky Blue to Hot Pink */
+            color: #fff; /* White text */
             border-radius: 50px;
             width: 200px;
-            height: 15px;;
+            height: 15px;
             font-size: 20px;
         }
 
@@ -43,19 +42,36 @@
             border-radius: 50%;
             margin-bottom: 15px;
             margin-top: 15px;
-            border: 10px solid lightskyblue;
+            border: 10px solid #87CEEB; /* Sky Blue */
+        }
+        .side-bar a:hover {
+            background: linear-gradient(45deg, #87CEFA, #FF69B4); /* Light Sky Blue to Hot Pink */
+            color: #fff; /* White text */
+            border-radius: 50px;
+            width: 200px;
+            height: 15px;
+            font-size: 20px;
+        }
+        .side-bar img:hover {
+            background: linear-gradient(45deg, #87CEFA, #FF69B4); 
+            color: #fff; /* White text */
+            border-radius: 50%;
+            width:200px;
+            height: 200px;
+            border: none;
         }
 
+
+
         .main {
-            background: linear-gradient(45deg, lightyellow,skyblue);
-            flex: 1; /* Take remaining width */
-            padding: 20px; /* Add some padding */
-            margin-left: 5px;
-            margin-top: 5px;
+            background:#FFFFFF
+            ;/* Light Pink to Dark Turquoise */
+            flex: 1;
+            padding: 20px;
+            color:#0d2634; /* Dark Gray text */
             font-size: 20px;
-            color:darkblue;
+            margin-left: 5px;
         }
-        
     </style>
 </head>
 <body>
@@ -67,9 +83,10 @@
         <a href="">Mac book</a>
         <a href="">Aspire Laptops</a>
         <a href="">Asus Laptops</a>
-
     </aside>
-    <section class="main">    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus aliquam cumque et! Esse animi libero itaque, odit ut dicta tempore mollitia sequi. Nisi minima voluptatum aut distinctio, dolor natus fugit quasi aliquid, aliquam incidunt excepturi quibusdam ipsa, consequuntur assumenda ullam eius a laudantium? Quidem soluta minus aperiam, ad ratione atque.</p>
+    <section class="main">
+        <br>  <br>  
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus aliquam cumque et! Esse animi libero itaque, odit ut dicta tempore mollitia sequi. Nisi minima voluptatum aut distinctio, dolor natus fugit quasi aliquid, aliquam incidunt excepturi quibusdam ipsa, consequuntur assumenda ullam eius a laudantium? Quidem soluta minus aperiam, ad ratione atque.</p>
     </section>
 </body>
 </html>
