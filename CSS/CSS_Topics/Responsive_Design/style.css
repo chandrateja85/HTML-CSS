@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+    background-color: teal;
+    margin: 250px auto;
+    color: white;
+}
+h1 {
+    display: none;
+}
+div img {
+    width: 80%;
+}
+/* This is Media Query for the Mobile */
+@media (max-width:500px) {
+    body {
+        background-color: limegreen;
+
+    }
+    #mobile h1 {
+        display: block;
+    }
+}
+/*Tablet Media Query*/
+@media (min-width:501px)and (max-width:768px) {
+    body {
+        background:linear-gradient(45deg,skyblue,deeppink);
+
+    }
+    #tablet h1 {
+        display: block;
+    }
+}
+/* Laptop Screen Media Query*/
+
+@media (min-width:769px)and (max-width:1200px) {
+    body {
+        background:linear-gradient(45deg,orange,limegreen);
+
+    }
+    #laptop h1 {
+        display: block;
+    }
+}
+
+/* Wide Screen Media Query*/
+
+@media (min-width:1201px) {
+    body {
+        background:linear-gradient(45deg,blue,violet);
+
+    }
+    #widescreen h1 {
+        display: block;
+    }
+}
+ 
+
+

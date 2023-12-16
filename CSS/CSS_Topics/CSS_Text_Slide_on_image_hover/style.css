@@ -1,0 +1,37 @@
+.body{
+    background: linear-gradient(45deg black,green);
+}
+.box {
+    margin:100px auto;
+    border-radius: 10px;
+
+    width: 700px;
+    height: 500px;
+    position: relative;
+}
+.box img {
+    width:inherit;
+    height: inherit;
+    border-radius: 10px;
+}
+.box .matter{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+    background-color: rgba(0,0 , 0, 0.5);
+    width: 50%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transform:  perspective(400px) rotateY(-90deg);
+    box-sizing: border-box;
+    transform-origin: right;
+    border-top-left-radius: 10px;
+    transition: 0.5s;
+    padding: 20px;
+
+}
+.box:hover .matter {
+    transform: perspective(400px) rotateY(0deg);
+}

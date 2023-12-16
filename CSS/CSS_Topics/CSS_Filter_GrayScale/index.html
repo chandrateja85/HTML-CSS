@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gray_Scale Effect</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .GrayScale {
+            width: 400px;
+            height: 600px;
+            margin: 70px auto;
+        }
+        .GrayScale img {
+            width: inherit;
+            height: inherit;
+            border-radius: 10px;
+            box-shadow: 0 0 10px black;
+            transition: 0.5s;
+            filter: grayscale(100%);
+        }
+        .GrayScale img:hover {
+            transform: scale(1.1);
+            filter: grayscale(0%);
+        }
+    </style>
+</head>
+<body>
+    <div class="GrayScale">
+        <img src="Cute_Baby.jpg">
+    </div>
+</body>
+</html>

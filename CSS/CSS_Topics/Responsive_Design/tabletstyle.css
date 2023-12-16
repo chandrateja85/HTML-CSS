@@ -1,0 +1,7 @@
+body {
+    background:linear-gradient(45deg,skyblue,deeppink);
+
+}
+#tablet h1 {
+    display: block;
+}
